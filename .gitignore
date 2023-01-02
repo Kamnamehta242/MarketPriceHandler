@@ -38,3 +38,8 @@ target/*
 
 .idea
 MarketPriceHandler.iml
+
+.classpath
+.project
+.settings/
+*/target/**

@@ -1,8 +1,0 @@
-server:
-  port: 8082
-amazon:
-  dynamodb:
-   endpoint: http://localhost:8000/
-  aws:
-   accesskey: key
-   secretkey: key2
