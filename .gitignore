@@ -30,4 +30,6 @@
 # Generated files
 .idea/**/contentModel.xml
 
-/target
+target
+.idea
+MarketPriceHandler.iml
