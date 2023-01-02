@@ -1,0 +1,3 @@
+com\santandar\market\handler\MarketPriceHandlerTest.class
+com\santandar\market\dynamodb\repositories\InstrumentRepositoryTest.class
+com\santandar\market\LocalDynamoDBCreationRule.class

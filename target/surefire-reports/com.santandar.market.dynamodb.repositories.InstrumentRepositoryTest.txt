@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.santandar.market.dynamodb.repositories.InstrumentRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.75 s <<< FAILURE! - in com.santandar.market.dynamodb.repositories.InstrumentRepositoryTest
+givenItemWithExpectedCost_whenRunFindAll_thenItemIsFound  Time elapsed: 0.688 s  <<< ERROR!
+com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMappingException: Instrument[update]; could not unconvert attribute
+	at com.santandar.market.dynamodb.repositories.InstrumentRepositoryTest.givenItemWithExpectedCost_whenRunFindAll_thenItemIsFound(InstrumentRepositoryTest.java:63)
+Caused by: com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMappingException: could not invoke null on class com.santandar.market.dynamodb.entities.Instrument with value Wed Jan 01 00:01:01 CET 2020 of type class java.util.Date
+	at com.santandar.market.dynamodb.repositories.InstrumentRepositoryTest.givenItemWithExpectedCost_whenRunFindAll_thenItemIsFound(InstrumentRepositoryTest.java:63)
+Caused by: java.lang.NullPointerException
+	at com.santandar.market.dynamodb.repositories.InstrumentRepositoryTest.givenItemWithExpectedCost_whenRunFindAll_thenItemIsFound(InstrumentRepositoryTest.java:63)
+
