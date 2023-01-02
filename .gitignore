@@ -30,6 +30,11 @@
 # Generated files
 .idea/**/contentModel.xml
 
-target
+## target folder at the top level of the project structue and paths and contents underneath it
+
+target/
+
+target/*
+
 .idea
 MarketPriceHandler.iml
