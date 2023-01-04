@@ -37,8 +37,9 @@ public class ServiceConfiguration {
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
+
     @Bean
-    PartnerServiceImpl getPartnerService(@Autowired ObjectMapper objectMapper, RestTemplate restTemplate) {
+    PartnerService getPartnerService(@Autowired ObjectMapper objectMapper, RestTemplate restTemplate) {
         return new PartnerServiceImpl(objectMapper,restTemplate);
     }
 }

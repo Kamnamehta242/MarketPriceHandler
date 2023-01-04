@@ -57,7 +57,7 @@ class InstrumentRepositoryTest {
     }
 
     @Test
-    public void givenItemWithExpectedCost_whenRunFindAll_thenItemIsFound() throws ParseException {
+    public void testInstrument() throws ParseException {
         Instrument productInfo = new Instrument("1", "EUR/USD", 1.1000, 1.2000, FXDateTime.convertToDate("01-06-2020 12:01:01.001"), 1.0000, 1.3000, FXDateTime.convertToDate("01-06-2020 12:01:01.001"));
         repository.save(productInfo);
         List<Instrument> result = (List<Instrument>) repository.findAll();

@@ -51,7 +51,7 @@ public class Instrument {
     }
 
     @DynamoDBAttribute
-    public Date getUpdate() {
+    public Date getUpdateDt() {
         return updateDt;
     }
 
